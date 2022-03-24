@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cuprum:ital@0;1&family=Poppins:ital,wght@0,200;1,400;1,500;1,600;1,900&family=Roboto:ital,wght@0,100;0,400;0,500;1,400;1,500;1,700;1,900&display=swap');
+
+/* 
+font-family: 'Bebas Neue', cursive;
+font-family: 'Cuprum', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+body, html{
+    height: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+#DP{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    vertical-align: bottom;
+ 
+}
+
+
+
+#navBar{
+    font-family: 'Bebas Neue', cursive;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    letter-spacing: 0.2rem;
+    color: white;
+}
+
+
+
+p{
+    font-family: 'Cuprum', sans-serif;
+}
+
+#gallery_parallax_1{
+    /* The image used */
+    background-image: url('./Images/Home/Gallery/1.jpg');
+    /* Set a specific height */
+    height: 100%;
+    
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 5s;
+  }
+
+#gallery_parallax_2{
+    /* The image used */
+    background-image: url('./Images/Home/Gallery/2.jpg');
+    /* Set a specific height */
+    height: 100%;
+   
+    
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+#gallery_parallax_3{
+    /* The image used */
+    background-image: url('./Images/Home/Gallery/3.jpg');
+    /* Set a specific height */
+    height: 100%;
+   
+    
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+#gallery_parallax_4{
+    /* The image used */
+    background-image: url('./Images/Home/5.jpg');
+    /* Set a specific height */
+    height: 100%;
+   
+    
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+#gallery_parallax_5{
+    /* The image used */
+    background-image: url('./Images/Home/44899271886683.5bd48814e2032.jpg');
+    /* Set a specific height */
+    height: 100%;
+   
+    
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+#gallery_parallax_6{
+    /* The image used */
+    background-image: url('./Images/Home/Gallery/0837c6100881987.5f1250926e54a.jpg');
+    /* Set a specific height */
+    height: 100%;
+   
+    
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+#gallery_parallax_7{
+    /* The image used */
+    background-image: url('./Images/Home/Gallery/d091c6100821747.5f10ef294b30c.jpg');
+    /* Set a specific height */
+    height: 100%;
+   
+    
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+#gallery_parallax_8{
+    /* The image used */
+    background-image: url('./Images/Home/Gallery/4.jpg');
+    /* Set a specific height */
+    height: 100%;
+   
+    
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+
+#parallaxContact {
+    /* The image used */
+    background-image: url('./Images/Home/56381571_3179963585362594_1154496275840761856_n.jpg');
+    /* Set a specific height */
+    height: 100%;
+    filter: grayscale(100%);
+    
+    
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center 45%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 5s;
+  }
+
+#parallax1 {
+    /* The image used */
+    background-image: url('./Images/Home/parallax1.jpg');
+    /* Set a specific height */
+    height: 100%;
+    
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 5s;
+  }
+
+
+
+
+#title{
+  
+    position: relative;
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-size: 5rem;
+    letter-spacing: 0.2rem;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+#parallax2 {
+    /* The image used */
+    background-image: url(./Images/Home/parallax2.jpg);
+    /* Set a specific height */
+    height: 100%;
+    
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+#content_title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    font-style: bold;
+    letter-spacing: 0.2rem;
+
+}
+
+#content_title_2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    font-style: normal;
+    letter-spacing: 0.2rem;
+
+}
+#parallax3 {
+    /* The image used */
+    background-image: url(./Images/Home/parallax3.jpg);
+    /* Set a specific height */
+    height: 100%;
+    
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+#content-row{
+    height:500px;
+    background-color:white;
+    display: flexbox;
+}
+#gallery-row{
+    height:200px;
+    background-color:darkgray;
+    display: flexbox;
+}
+
+#prefooter{
+    height:150px;
+    background-color:beige;
+    font-size:"10px";
+    font-family: 'Cuprum', sans-serif;
+    padding-bottom: 20px;
+}
+
+#footer{
+    background-color: black;
+    opacity: 0.5;
+}
+
+#icon{
+    color: black;
+    font-size: 20px;
+}
+
+#gallery{
+    max-height: auto;
+}
+
+#link{
+    text-decoration: none;
+}
+
+#icon_tools{
+   font-size: 100px;
+   color: darkslategrey;
+   
+   
+}
+
+#icon_tools_2{
+   font-size: 40px;
+   justify-content: center;
+   color: gray;
+}
+
+#frame{
+    width: 100%;
+    background-color: black;
+}
+
+.form-group{
+    padding: 1rem;
+}
+
+.modal-dialog{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-stretch: condensed;
+}
+
